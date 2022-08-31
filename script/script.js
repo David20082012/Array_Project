@@ -22,8 +22,17 @@
 
 
 
-var i = 1;
-do{
-    console.log(i);
-    i++;
-}while(i<=100);
+// var i = 1;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<=100);
+
+
+// FUNCTION :- is a reused code
+function calcPrice(price, tax){
+    var res = price*tax;
+    console.log(res);
+}
+
+calcPrice(2000, 1.4);
