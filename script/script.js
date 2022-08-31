@@ -49,10 +49,18 @@
 // console.log(result);
 
 
-//Hoisting
-console.log(x);
-var x=10;
-// Hoisting steps =>
-var x;
-console.log(x) // => undefined
-x=10;          // the variable will be assigned later at his mentioned code step
+// //Hoisting
+// console.log(x);
+// var x=10;
+// // Hoisting steps =>
+// var x;
+// console.log(x) // => undefined
+// x=10;          // the variable will be assigned later at his mentioned code step
+
+
+
+// Expresstion Function
+var calcPrice = function (price, tax){
+    var res = price * tax;
+    console.log(res);
+}
