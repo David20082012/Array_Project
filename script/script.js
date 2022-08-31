@@ -40,10 +40,19 @@
 // calcPrice(2000, 1.4);
 
 // RETRUN Funvtion
-function calcPrice(price, tax){
-    var res = price*tax;
-    return res;
-}
+// function calcPrice(price, tax){
+//     var res = price*tax;
+//     return res;
+// }
 
-var result = calcPrice(2000, 1.4);
-console.log(result);
+// var result = calcPrice(2000, 1.4);
+// console.log(result);
+
+
+//Hoisting
+console.log(x);
+var x=10;
+// Hoisting steps =>
+var x;
+console.log(x) // => undefined
+x=10;          // the variable will be assigned later at his mentioned code step
