@@ -96,17 +96,30 @@ var calcPrice = function (price, tax){
 
 // ARRAY => List
         // 0  1  2  3  4 => Index
-var arr = [10, 2, 18, 9, 5];
+// var arr = [10, 2, 18, 9, 5];
 
-arr.push(100);
-arr.unshift(0);
-arr.shift();
-arr.pop();
+// arr.push(100);
+// arr.unshift(0);
+// arr.shift();
+// arr.pop();
 
-for(var i = 0 ; i < arr.length; i++){
-    console.log(arr[i]);
+// for(var i = 0 ; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+// console.log(arr.sort()); // will sort the array elments based on the value foe each elment
+
+
+// Array of Objects
+var productes = [
+    {name:"product1", price:100,imgPath:""},
+    {name:"product2", price:200,imgPath:""},
+    {name:"product3", price:300,imgPath:""}
+];
+
+for (let index = 0; index < productes.length; index++) {
+    console.log(productes[index].name);
+    
 }
-console.log(arr.sort()); // will sort the array elments based on the value foe each elment
 
 
 
