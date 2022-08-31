@@ -69,3 +69,27 @@ var calcPrice = function (price, tax){
     console.log(res);
 }
 
+
+//// ACCESS MODIFIERS /////
+
+// => Global Variables
+var x = 10; // global
+if(x == 10){
+    var y = x; //global
+}
+console.log(y);
+
+// // => Let
+let x = 10; // global
+if(x == 10){
+    let y = x; //local
+}
+console.log(y); // can't be used out side
+
+// => Const
+const x = 10; // global
+if(x == 10){
+    y = x; //local
+}
+console.log(y);
+
