@@ -73,23 +73,31 @@ var calcPrice = function (price, tax){
 //// ACCESS MODIFIERS /////
 
 // => Global Variables
-var x = 10; // global
-if(x == 10){
-    var y = x; //global
-}
-console.log(y);
+// var x = 10; // global
+// if(x == 10){
+//     var y = x; //global
+// }
+// console.log(y);
 
-// // => Let
-let x = 10; // global
-if(x == 10){
-    let y = x; //local
-}
-console.log(y); // can't be used out side
+// // // => Let
+// let x = 10; // global
+// if(x == 10){
+//     let y = x; //local
+// }
+// console.log(y); // can't be used out side
 
-// => Const
-const x = 10; // global
-if(x == 10){
-    y = x; //local
-}
-console.log(y);
+// // => Const
+// const x = 10; // global
+// if(x == 10){
+//     y = x; //local
+// }
+// console.log(y);
 
+
+// ARRAY => List
+        // 0  1  2  3  4 => Index
+var arr = [1, 2, 3, 4, 5];
+
+for(var i = 0 ; i < arr.length; i++){
+    console.log(arr[i]);
+}
