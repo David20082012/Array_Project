@@ -96,8 +96,17 @@ var calcPrice = function (price, tax){
 
 // ARRAY => List
         // 0  1  2  3  4 => Index
-var arr = [1, 2, 3, 4, 5];
+var arr = [10, 2, 18, 9, 5];
+
+arr.push(100);
+arr.unshift(0);
+arr.shift();
+arr.pop();
 
 for(var i = 0 ; i < arr.length; i++){
     console.log(arr[i]);
 }
+console.log(arr.sort()); // will sort the array elments based on the value foe each elment
+
+
+
