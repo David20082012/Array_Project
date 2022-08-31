@@ -1,4 +1,8 @@
 // console.log()
+// = assignment
+// == check equality
+// === check both equality & variable type
+
 
 // variables
 // condition
@@ -64,3 +68,4 @@ var calcPrice = function (price, tax){
     var res = price * tax;
     console.log(res);
 }
+
