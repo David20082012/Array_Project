@@ -30,9 +30,20 @@
 
 
 // FUNCTION :- is a reused code
+
+// * VOID Function
+// function calcPrice(price, tax){
+//     var res = price*tax;
+//     console.log(res);
+// }
+
+// calcPrice(2000, 1.4);
+
+// RETRUN Funvtion
 function calcPrice(price, tax){
     var res = price*tax;
-    console.log(res);
+    return res;
 }
 
-calcPrice(2000, 1.4);
+var result = calcPrice(2000, 1.4);
+console.log(result);
